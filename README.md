@@ -1,5 +1,5 @@
 # ijji
-From: Instance to JSON, JSON to Instance *(pronounced like [Fiji](https://es.wikipedia.org/wiki/Fiyi) but without F)*<br>
+From: Instance to JSON, JSON to Instance *(pronounced like e-hee)*<br>
 is a library that provides a couple of functions to convert class instances to json, and json to class instances. Ah, it also offers a couple of types for typing like a champion.
 
 **run:**<br>
@@ -31,6 +31,9 @@ john_data.hi(); // ERROR, 'hi()' is not a function
 
 const john = json_to_instance(john_data, Person);
 john_data.hi(); // "hi!"
+
+//ERROR: {name:number, age: string} does not match Person. 
+const pepe = json_to_instance({name:10, age:"0"}, Person)
 ```
 
 you can also:
