@@ -1,5 +1,5 @@
 # ijji
-From: Instance to JSON, JSON to Instance *(pronounced like e-hee)*<br>
+From: Instance to JSON, JSON to Instance *(pronounced like [e-hee](https://www.youtube.com/watch?v=2UGliJzlhew))*<br>
 is a library that provides a couple of functions to convert class instances to json, and json to class instances. Ah, it also offers a couple of types for typing like a champion.
 
 **run:**<br>
